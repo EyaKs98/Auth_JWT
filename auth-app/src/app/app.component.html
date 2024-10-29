@@ -1,0 +1,14 @@
+<nav class="navbar">
+  <a routerLink="/login">Login</a> | 
+  <a routerLink="/register">Register</a> | 
+  <a routerLink="/dashboard">Dashboard</a> | 
+  <a routerLink="/admin">Admin</a>
+</nav>
+
+<!-- app.component.html -->
+<div *ngIf="authService.isAuthenticated()">
+  <button (click)="logout()">Logout</button>
+</div>
+
+
+<router-outlet></router-outlet>

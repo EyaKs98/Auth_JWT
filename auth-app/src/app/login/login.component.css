@@ -1,0 +1,37 @@
+.dashboard {
+    padding: 20px;
+    background-color: #e8f5e9;
+}
+
+h1 {
+    color: #333;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement */
+  }
+  
+ 
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centre le bouton horizontalement */
+    margin-top: 20px; /* Espace au-dessus du bouton */
+  }
+  
+  mat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre tout le contenu du mat-card */
+    width: 100%; /* Prend toute la largeur */
+    max-width: 400px; /* Limite la largeur maximale si besoin */
+    margin: auto; /* Centre le mat-card dans le parent */
+  }

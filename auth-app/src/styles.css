@@ -1,0 +1,55 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Utiliser toute la hauteur de la fenêtre */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Typographie */
+    background-color: #f4f4f4; /* Couleur de fond */
+}
+
+form {
+    background: white; /* Couleur de fond du formulaire */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    width: 300px; /* Largeur du formulaire */
+}
+
+label {
+    margin-top: 10px; /* Espace entre les labels et les champs */
+    display: block; /* Afficher chaque label sur une nouvelle ligne */
+}
+
+input, select {
+    width: 100%; /* Prendre toute la largeur */
+    padding: 10px; /* Espacement intérieur */
+    margin: 5px 0; /* Espace vertical */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+button {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    border: none; /* Pas de bordure */
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 4px; /* Coins arrondis */
+    cursor: pointer; /* Curseur pointer pour indiquer que c'est cliquable */
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur du bouton au survol */
+}
+/* styles.css ou le fichier CSS spécifique à votre composant */
+.navbar {
+    position: fixed; /* Fixe la barre de navigation */
+    top: 0; /* Positionne la barre de navigation en haut */
+    left: 0; /* Positionne la barre de navigation sur le côté gauche */
+    width: 100%; /* Prend toute la largeur de la page */
+    background-color: #fff; /* Changez la couleur de fond selon vos besoins */
+    z-index: 1000; /* Assurez-vous que la barre est au-dessus des autres éléments */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre pour un effet d'élévation */
+}
