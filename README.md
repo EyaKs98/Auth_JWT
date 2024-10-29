@@ -61,9 +61,11 @@ Assurez-vous d'avoir installé :
 npm install
 
 #### Frontend  (auth-api)
-1. Accédez au dossier auth-app :
+1.  Accédez au dossier auth-app :
 cd auth-app
-2.Installez les dépendances du frontend :
+
+2.  Installez les dépendances du frontend :
+
 npm install
 
 ### Configuration
